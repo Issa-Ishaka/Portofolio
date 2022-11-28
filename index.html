@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itech-ishaka technologie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ccedbccd39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div id="header">
+    <div class="container">
+        
+        <nav>
+            <img src="image/logoitech.png" class="logo">
+            
+            <ul id="sidemenu" >
+                <li> <a href="#header">Accueil</a> </li>
+                <li> <a href="#about">À propos</a> </li>
+                <li> <a href="#services">Services</a> </li>
+                <li> <a href="#portfolio">Portofolio</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Dev Fullsack-python</p>
+            <h1>I'm Ishaka <span>ISSA</span> From-Comoros <br>
+               I study in Senegal at Xarala Academy 
+            </h1>
+        </div>
+    </div>
+</div> 
+<!-------------- À propos ----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/Photo.jpg" alt="photo" >
+             </div>
+            <div class="about-col-2"> 
+                <h1 class="sub-title" >À propos de moi</h1>
+                <p> Je me nomme Ishaka ISSA.Etudiant en M1-Informatique et Telecommunication
+                    a l'Universite Amadou Hampateba.
+                    Actuellement, aprenant chez Xarala Academy en Developpement Fullsack-python.
+
+                </p>
+                <div class="tib-titles">
+                    <p class="tab-links active-link" onclick="opentab('competences') " >Competences</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                    <p class="tab-links" onclick="opentab('formation') ">Formation</p>
+                </div>
+                <div class="tab-containts active-tab" id="competences">
+                    <ul>
+                        <li> <span>Bureautique</span> <br> Microsft Pack Office </li>
+                        <li> <span>Systeme d'exploitation</span> <br> Windows/Unix</li>
+                        <li> <span>Dev Fullstack </span> <br> HTML/CSS </li>
+                        <li> <span>Dev Fullstack </span> <br> Python/Djqngo </li>
+                        <li> <span>Dev Fullstack</span> <br> Php/Lravel </li>
+                        <li> <span>Dev Fullstack</span> <br> Flutter </li>
+                        <li> <span>SGBDR</span> <br> SQL/NoSQL </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-containts" id="experience">
+                    <ul>
+                        <li> <span>2021</span> <br> projet de memoire de licence </li>
+                        <li> <span>2021</span> <br> Charger de communication A.E.B.S </li>
+                        <li> <span>2020</span> <br> cretion site-ecomerce/ projet acquademique L2 </li>
+                        <li> <span>2019</span> <br> Prejet creation de base de donnee AB-Aviation L1</li>
+                        <li> <span>2017</span> <br> Tresorier general de Houdame </li>
+                    </ul>
+                </div>
+                <div class="tab-containts" id="formation">
+                    <ul>
+                        <li> <span>2022</span> <br> M1-Informatique et Telecommunication </li>
+                        <li> <span>2021</span> <br> Licence en Informatique et Telecommunication </li>
+                        <li> <span>2018</span> <br> BAC - D </li>
+                        <li> <span>2015</span> <br> BPEC </li>
+                        <li> <span>2011</span> <br> 6eme CEP </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-----------------Services------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title" >Mes Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Dev Web Django</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aperiam repellendus minima in sed itaque harum magni blanditiis 
+                    perspiciatis fugit natus nesciunt nisi nulla ipsam laborum praesentium,
+                     ut rem, neque excepturi.</p>
+                <a href="#">En savoir plus</a>     
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Dev Mobile Flutter</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aperiam repellendus minima in sed itaque harum magni blanditiis 
+                    perspiciatis fugit natus nesciunt nisi nulla ipsam laborum praesentium,
+                     ut rem, neque excepturi.</p>
+                <a href="#">En savoir plus</a>     
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-network-wired"></i>
+                <h2>Reseaux et Telecommunication</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aperiam repellendus minima in sed itaque harum magni blanditiis 
+                    perspiciatis fugit natus nesciunt nisi nulla ipsam laborum praesentium,
+                     ut rem, neque excepturi.</p>
+                <a href="#">En savoir plus</a>     
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Maintenance Informatique</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aperiam repellendus minima in sed itaque harum magni blanditiis 
+                    perspiciatis fugit natus nesciunt nisi nulla ipsam laborum praesentium,
+                     ut rem, neque excepturi.</p>
+                <a href="#">En savoir plus</a>     
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--------------------------------- Portofolio ------------------------------------->
+
+<div id="portfolio">
+    <div class="container"> 
+        <h1 class="sub-title" >Portofolio-Projet</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/prof1.png" alt="">
+                <div class="layer">
+                    <h3>Intervention et reparation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe provident repudiandae voluptatum eveniet,
+                         sunt laboriosam rerum perspiciatis delectus, 
+                         nesciunt consequuntur assumenda in natus tenetur ab corporis expedita vero! Veniam,quo.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        
+            <div class="work">
+                <img src="image/photo12.jpeg" alt="">
+                <div class="layer">
+                    <h3>Projet acqudemique L3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe provident repudiandae voluptatum eveniet,
+                         sunt laboriosam rerum perspiciatis delectus, 
+                         nesciunt consequuntur assumenda in natus tenetur ab corporis expedita vero! Veniam,quo.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work1 (1).jpeg" alt="">
+                <div class="layer">
+                    <h3>Mise en place de Reseaux entrepeise</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe provident repudiandae voluptatum eveniet,
+                         sunt laboriosam rerum perspiciatis delectus, 
+                         nesciunt consequuntur assumenda in natus tenetur ab corporis expedita vero! Veniam,quo.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="image/work1 (5).png" alt="">
+                <div class="layer">
+                    <h3>Reseaux telecom et maintenance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe provident repudiandae voluptatum eveniet,
+                         sunt laboriosam rerum perspiciatis delectus, 
+                         nesciunt consequuntur assumenda in natus tenetur ab corporis expedita vero! Veniam,quo.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">En savoir plus</a>
+
+
+    </div>
+</div>
+
+<!-------------------Contacts ----------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contactez-moi</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> hamidouishakaissa@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i> +221 77 876 90 84</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/issa.ishaka.5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home?lang=fr"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/feed/?trk=sign-pg"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="CV_Issa_ISHAKA.pdf" download class="btn btn2">Telecharger mon CV</a>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <input type="email" name="mail" placeholder="E-mail" required >
+                    <textarea name="message"  rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2"> Evoyer</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+<footer class="footer">
+    <img src="image/logo_xarala.png" class="logo1">
+    <div class="copy">
+        &copy 2022 - ISHAHA ISSA
+    </div>
+</footer>
+
+<script> 
+    /*  code de java script pour a propos  */
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontaints = document.getElementsByClassName("tab-containts");
+   /* declaration d'une fonction */
+   function opentab(tabname){ /* permet de suprimet les element une fois cliquer */
+    for (tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontaint of tabcontaints){
+        tabcontaint.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link"); /* tres sur les autres une fois clickr*/
+    document.getElementById(tabname).classList.add("active-tab"); /* lister les autres formation,experience une fois cliquer */
+    
+    }
+</script>
+
+<!-------------Script pour le menu icone closemenu et openmenu-->
+<script>
+    var sidemeu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right="-200px";
+
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzklck5s7RyxVjjidPSJhFoBLUKB8Ax7QOboUY95gYf9CHYjR5gINKEvZjNp_HYu_aKTQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Merci , message envoyer avec succee !"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        }
+        
+        )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+
+</html>
